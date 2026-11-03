@@ -3,76 +3,130 @@
 **Last updated:** November 3, 2026
 
 ## Summary
-Your privacy matters to us. This policy transparently explains how your data is handled.
 
-*   **What do we collect?** Only what's needed for the Bot to work: Discord IDs (user, server, channels), server settings, and executed commands.
-*   **Why do we collect it?** To provide and improve the Bot's features, save your preferences, and fix issues.
-*   **Is your data sold?** Never. We do not sell, rent, or use your data for marketing.
-*   **Who do we share it with?** Only with essential service providers (such as Bot hosting) or if required by law.
-*   **What are your rights?** You can request access to or deletion of your data at any time.
+This policy explains what information Arielzinha processes, why it is used, and the limitations of its retention and deletion controls.
 
----
+- **Identifiers:** Discord user, server, and channel IDs are used for commands, settings, and permissions.
+- **Persisted data:** Server settings, user preferences, favorites, integrations, and Last.fm linking data may be stored.
+- **Commands and messages:** The bot receives server messages to identify commands and mention-based song requests. This policy does not claim that all message history is archived; however, optional command logging can record command text or submitted options.
+- **Third parties:** Operation may involve Discord, Last.fm, music providers, hosting, and infrastructure services.
+- **Deletion:** The current code does not provide a public self-service mechanism to erase all data. Removing the bot from a server does not automatically delete records already stored.
 
 ## 1. Introduction
-Welcome to the Privacy Policy of **Arielzinha** ("Bot"). This document details what information we collect, how we use it, and the measures we take to protect it. This policy applies to all users who interact with the Bot on any Discord server.
 
-By adding or using Arielzinha, you acknowledge that you have read this policy. Data processing is carried out according to the applicable purposes and legal bases, and is not based solely on a generic statement of consent.
+This Privacy Policy applies to **Arielzinha**, a music bot for Discord. It describes data processing performed by the implementation available in the [DEVenur/Arielzinha repository](https://github.com/DEVenur/Arielzinha).
 
-## 2. Information We Collect
-We only collect data that is strictly necessary for the Bot's operation. It falls into two categories:
+Actual processing may vary depending on the instance configuration, particularly the database, command logging, technical logs, and enabled integrations.
 
-#### a) Data You Provide Directly
-*   **Server Settings:** Information configured by administrators, such as command prefix, designated music channels, DJ roles, and other server-specific preferences.
+## 2. Information processed
 
-#### b) Data Collected Automatically (Usage Data)
-*   **Discord Identifiers (IDs):** User, Server (Guild), and Channel IDs are collected to correctly execute commands, apply settings, and manage permissions.
-*   **Voice Channel Presence:** To operate the music player, the Bot checks in real time which members are present in the voice channel it is playing in, in order to distinguish real listeners from other bots. This is used to automatically disconnect the player when no human listeners remain and to display member statistics in informational commands (e.g. `/about`). This data is not stored; it is queried on demand and discarded immediately after use.
-*   **Command Data:** The content of the commands you run (e.g. `!play <song link>`). This data is processed to fulfill your request. Command content may also appear in technical diagnostic records, depending on the service implementation and configuration; therefore, this section should not be read as a guarantee that command data is never logged.
-*   **Technical Logs:** Diagnostic and error records, which may include IDs and commands, used to monitor stability, identify bugs, and ensure service security. These logs are rotated and periodically deleted.
+### 2.1. Discord identifiers and context
 
-#### c) What We Do NOT Collect
-We **DO NOT** collect, store, or request:
-*   Your email address or Discord password.
-*   Any message content in servers other than direct commands to the Bot.
-*   Sensitive personal information such as real name, address, or age.
+During operation, the bot uses identifiers such as:
 
-## 3. Purpose and Legal Basis for Data Processing
-We use your data for specific purposes, each backed by a clear legal basis.
+- The ID of the user executing a command;
+- Server (guild) and channel IDs;
+- Context information needed to check permissions, roles, channels, and voice-channel presence.
 
-| Data Type | Purpose of Use | Legal Basis |
-| :--- | :--- | :--- |
-| IDs (User, Server, Channel) | Operate the Bot, apply settings and permissions. | **Performance of a Service** |
-| Voice Channel Presence | Detect real listeners, auto-disconnect, and statistics. | **Performance of a Service** |
-| Server Settings | Customize the Bot's experience on your server. | **Performance of a Service** |
-| Commands and Interactions | Process your requests (playing music, skipping, etc.). | **Performance of a Service** |
-| Technical Logs | Diagnose errors, monitor performance, and prevent abuse. | **Legitimate Interest** |
+The bot also queries member and voice-state information in real time to operate player features. The implementation uses this information during operation; this policy does not claim that a complete voice-presence history is stored.
 
-## 4. Data Sharing and Disclosure
-Our users' trust is our priority. We do not sell or rent your data. Sharing is limited to the following situations:
+### 2.2. Persisted user data
 
-*   **Service Providers:** Operating the Bot may involve external hosting, infrastructure, and technical service providers. These providers may process data necessary to deliver their services, subject to their own terms and policies.
-*   **Legal Obligation:** We may disclose your information if required by law, subpoena, or other valid legal process, or to protect our rights, property, and safety.
+The implementation maintains records associated with user IDs that may include:
 
-## 5. Security and Data Retention
-*   **Security:** We seek to protect data processed by the Service through appropriate technical and administrative measures. The measures actually applied may vary depending on the infrastructure and providers in use. No system is completely secure, and absolute security cannot be guaranteed.
-*   **Retention:** We keep data only as long as necessary:
-    *   **Server Settings:** Retained for as long as they are necessary for operation and the purposes described in this policy. Removing the Bot stops its operation on the server, but does not guarantee immediate erasure of backups or technical records. To request data deletion, please contact us.
-    *   **Technical Logs:** Automatically deleted on a regular cycle (typically 7 to 30 days).
+- Custom command prefix;
+- Favorite links;
+- Integration data;
+- Tokens or integration credentials when used by related features;
+- Recent track information or history;
+- Last.fm username, session key, and scrobbling preference;
+- Other auxiliary data required by bot features.
 
-## 6. Your Privacy Rights
-As a user, you have control over your information. Your rights include:
+The Last.fm session key is an account-access credential and must be treated as sensitive authentication information.
 
-*   **Right of Access:** You may request a copy of the data we hold associated with your server or user account.
-*   **Right to Rectification:** If any information is incorrect, you may request its correction.
-*   **Right to Erasure ("Right to Be Forgotten"):** You may request the deletion of your data. The simplest way to do this for server data is to remove the Bot from the server. For individual requests, contact us.
+### 2.3. Persisted server data
 
-To exercise any of these rights, please contact us through our support server.
+Records associated with servers may include:
 
-## 7. Children's Privacy
-Our service is intended for users who meet Discord's minimum age requirement (currently 13 or older). We do not knowingly collect personally identifiable information from children under 13. If we discover that a child has provided us with data, we will take steps to remove it from our systems.
+- Server command prefix;
+- Player and controller-channel settings;
+- Skins and customizations;
+- Roles and settings related to player usage;
+- Voice-channel status and listen-along invites;
+- Other preferences required by enabled features.
 
-## 8. Changes to This Privacy Policy
-We may update this policy periodically. We will notify users of significant changes through our support server or other official channels. Continued use of the Bot after the update date constitutes acceptance of the new terms.
+### 2.4. Queues, tracks, and auxiliary data
 
-## 9. Contact
-For any questions, concerns, or to exercise your privacy rights, the best way to reach us is through our [official Discord server](https://dcserver.link/brasilpokedrink).
+The bot can save playback queues associated with a user, including track metadata, creation date, and server ID. The implementation writes these queues to local files.
+
+The scrobbling feature also maintains local auxiliary records for tracks that could not be identified or submitted to Last.fm. Local caches of metadata and query results are also used. These files should not be confused with a complete archive of all messages or all user activity.
+
+### 2.5. Messages, commands, and logs
+
+The bot receives server messages to recognize prefix commands, mentions, and song requests. This does not mean that every message is written to a database.
+
+There are, however, diagnostic options:
+
+- **COMMAND_LOG:** when enabled, it records executed commands, user and server identifiers, and, for prefix commands, the message content. For slash commands, it records the command name and filled options. This option is disabled by default in the example configuration.
+- **ENABLE_LOGGER:** when enabled, it writes technical logs to `.logs/disnake.log`. The content depends on events and messages emitted by the libraries and the bot itself. This option is also disabled by default in the example configuration.
+- **Process output:** diagnostic and error messages may be sent to standard output. The hosting platform may capture and retain this output under its own settings.
+
+The reviewed code does not define a universal period that guarantees automatic deletion of all such records.
+
+## 3. Purposes of processing
+
+Data is used to:
+
+- Execute commands and control music playback;
+- Apply user and server settings, permissions, and preferences;
+- Maintain favorites, saved queues, and customization features;
+- Link Last.fm accounts and submit tracks when the user enables scrobbling;
+- Maintain integrations and related features;
+- Diagnose errors, monitor operation, and investigate abuse when the relevant logging features are enabled.
+
+## 4. Third-party services and sharing
+
+Use of the bot may involve:
+
+- **Discord:** the platform through which the bot receives commands, identifiers, server context, and events required by its features.
+- **Last.fm:** when configured, the bot uses the Last.fm API to authenticate the account, retrieve information, and submit track data for now playing and scrobbling. This may include artist name, track title, album, duration, and session key.
+- **Music services:** depending on the source and feature used, queries and metadata may be processed by services such as Spotify, Deezer, and Lavalink servers configured for the instance.
+- **Hosting and database providers:** data may be stored on the operator's local infrastructure or in MongoDB, depending on the instance configuration. Hosting and database providers may have technical access to data under their infrastructure.
+
+We do not sell personal data. The instance operator should assess the third-party services actually enabled and their respective policies and terms.
+
+**Last.fm technical note:** in the reviewed code version, requests to the Last.fm API use the HTTP endpoint `http://ws.audioscrobbler.com/2.0/`, not HTTPS. This means that this integration does not provide HTTPS transport encryption in this implementation. The operator should consider this risk before enabling the integration.
+
+## 5. Storage and retention
+
+The implementation supports local TinyMongo storage or MongoDB, depending on configuration. In addition, certain auxiliary data — including scrobble records, caches, and saved queues — is written to local files.
+
+Storage duration depends on configuration, infrastructure, maintenance routines, and actions taken by the operator. The reviewed code does not establish a single retention period or guarantee automatic deletion of all data after a defined period.
+
+Removing the bot from a server stops its operation in that server, but does not automatically remove existing records from the database, local files, backups, or hosting logs.
+
+## 6. Security
+
+The operator should protect database files, backups, environment variables, tokens, and session keys, restricting access to authorized people. Security also depends on the configuration and practices of the hosting and database providers.
+
+This policy should not be interpreted as a guarantee of encryption at rest, encryption in transit across all services, or absolute security. In particular, the reviewed Last.fm integration uses HTTP, as described above.
+
+## 7. Requests for access, correction, or deletion
+
+The current code does not provide a public command that allows users to view, export, or fully delete all data associated with their account.
+
+To request access, correction, or deletion, contact the operator through the [official Discord support server](https://dcserver.link/brasilpokedrink). Provide enough information to locate the records, but do not send passwords, tokens, or session keys.
+
+Data removal may require actions in the database and instance files. Deletion of backups and records retained by the hosting provider also depends on that provider's policies and available controls. The bot does not implement an automatic completion deadline.
+
+## 8. Children's privacy
+
+Use of Arielzinha must comply with the age requirements applicable to Discord and the user's region. The operator must not allow use of the service in violation of those requirements.
+
+## 9. Changes to this policy
+
+This policy may be updated to reflect changes to the code, configuration, or services used. The current version will be published in this repository.
+
+## 10. Contact
+
+For questions or requests relating to data processed by an Arielzinha instance, use the [official Discord support server](https://dcserver.link/brasilpokedrink).
