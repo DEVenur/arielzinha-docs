@@ -1,6 +1,6 @@
 # Arielzinha Privacy Policy
 
-**Last updated:** August 14, 2026
+**Last updated:** November 3, 2026
 
 ## Summary
 Your privacy matters to us. This policy transparently explains how your data is handled.
