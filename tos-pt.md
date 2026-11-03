@@ -1,6 +1,6 @@
 # Termos de Serviço da Arielzinha
 
-**Última atualização:** 14 de agosto de 2026
+**Última atualização:** 3 de novembro de 2026
 
 Bem-vindo(a) à Arielzinha! Estes Termos de Serviço ("Termos") regem o seu uso do nosso bot de música no Discord. Ao adicionar ou utilizar a Arielzinha em um servidor, você concorda com estes Termos. É importante que você leia e compreenda estas regras.
 
