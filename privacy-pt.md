@@ -1,6 +1,6 @@
 # Política de Privacidade da Arielzinha
 
-**Última atualização:** 14 de agosto de 2026
+**Última atualização:** 3 de novembro de 2026
 
 ## Resumo
 Sua privacidade é fundamental para nós. Esta política explica de forma transparente como seus dados são tratados.
