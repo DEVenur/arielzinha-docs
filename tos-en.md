@@ -34,7 +34,7 @@ Violations of these rules may result in a permanent ban from using the Bot.
 
 ## 5. Intellectual Property
 
-The name **Arielzinha**, its logo, source code, and visual identity are our intellectual property. The Bot is licensed under **GPL-2.0**, which grants you the right to use, modify, and distribute the source code, provided you comply with the terms of that license.
+The name **Arielzinha**, its logo, and other brand elements may be subject to separate rights and are not automatically covered by the source-code license. The source code is distributed under **GPL-2.0**, subject to the applicable license and copyright notices in the repository. That license permits use, modification, and redistribution of the code under its stated terms. Nothing in these Terms replaces or restricts the rights granted by the applicable license.
 
 **Arielzinha** is a project derived from **MuseHeart MusicBot**, created by *zRitsu (Alex)*. We acknowledge and respect the copyright of the original project.
 
