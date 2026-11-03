@@ -2,68 +2,92 @@
 
 **Last updated:** November 3, 2026
 
-Welcome to Arielzinha! These Terms of Service ("Terms") govern your use of our Discord music bot. By adding or using Arielzinha on a server, you agree to these Terms. Please read and understand these rules.
+These Terms govern the use of **Arielzinha**, a music bot for Discord. By adding or using the bot, you agree to comply with these Terms and the applicable rules of Discord and the third-party services used.
 
-## 1. Key Definitions
+## 1. Definitions
 
-*   **"Bot" or "Arielzinha":** Refers to the Discord music bot developed by us.
-*   **"Service":** Refers to all features and commands offered by Arielzinha.
-*   **"User" or "You":** Refers to any person who interacts with the Bot.
-*   **"Server":** Refers to a Discord server where the Bot is installed.
-*   **"Content":** Refers to any music, link, or material played through the Bot.
+- **Bot or Arielzinha:** the music bot for Discord made available by the operator.
+- **Service:** features and commands made available by the bot instance.
+- **User:** a person who interacts with the bot.
+- **Server:** a Discord server where the bot is installed.
+- **Content:** music, links, metadata, queues, and other material accessed or processed through the bot.
 
-## 2. Acceptance of Terms
+## 2. Use and eligibility
 
-By using the **Arielzinha** bot, you confirm that you have read, understood, and agree to fully comply with these Terms of Service. If you disagree with any part of this document, you should not use the service. Continued use of the Bot after any updates constitutes acceptance of the new Terms.
+You must use Arielzinha in compliance with applicable law, Discord's Terms of Service and policies, and the terms of the content platforms used.
 
-## 3. Service Description and Availability
+You are responsible for ensuring that your use of the bot is permitted in your territory and that you meet the age requirements applicable to Discord and third-party services.
 
-**Arielzinha** is a music bot designed for Discord servers, enabling playback of content from streaming platforms. The service is provided "as is," without warranties of any kind. We do not guarantee that the Bot will always be available, error-free, or meet all of your expectations. We reserve the right to modify, suspend, or discontinue the Service, in whole or in part, at any time, with or without prior notice.
+## 3. Service description, availability, and changes
 
-## 4. Acceptable Use and User Conduct
+Arielzinha provides music playback and control, an interactive player, commands, and integrations that may vary depending on the instance configuration.
 
-You agree to use **Arielzinha** responsibly and in accordance with applicable laws and Discord's Terms of Service. It is strictly prohibited to:
+The Service depends on Discord, Lavalink servers, audio sources, and external services. The availability of a source or feature may change beyond the operator's control. Continuous availability, error-free operation, or permanent compatibility with third-party services is not guaranteed.
 
-*   Transmit any content that is illegal, defamatory, offensive, hateful, or harmful.
-*   Use the Bot for spam, harassment, or any form of abuse against other users.
-*   Interfere with or attempt to disrupt the normal operation of the Bot, our systems, or third-party servers.
-*   Use the service for any unauthorized commercial purpose.
-*   Attempt to circumvent any limitations or restrictions imposed by the Bot.
+The operator may modify, suspend, or discontinue features, subject to applicable law.
 
-Violations of these rules may result in a permanent ban from using the Bot.
+## 4. Prohibited conduct
 
-## 5. Intellectual Property
+You must not use the bot to:
 
-The name **Arielzinha**, its logo, and other brand elements may be subject to separate rights and are not automatically covered by the source-code license. The source code is distributed under **GPL-2.0**, subject to the applicable license and copyright notices in the repository. That license permits use, modification, and redistribution of the code under its stated terms. Nothing in these Terms replaces or restricts the rights granted by the applicable license.
+- engage in illegal activity or violate third-party rights;
+- harass, threaten, stalk, or harm others;
+- spam, abuse, or intentionally overload the Service;
+- attempt to access systems, credentials, data, or resources without authorization;
+- interfere with the operation of the bot, Discord, Lavalink servers, or third-party services;
+- circumvent technical limitations or security measures;
+- use the Service commercially where doing so violates these Terms, third-party rights, or the terms of integrated services.
 
-**Arielzinha** is a project derived from **MuseHeart MusicBot**, created by *zRitsu (Alex)*. We acknowledge and respect the copyright of the original project.
+The operator may restrict or terminate access in response to abuse or violations of these Terms, subject to applicable law.
 
-The Bot allows access to third-party content, such as music and videos. You are solely responsible for ensuring you have the right to access and play such content, respecting the copyright and terms of service of the respective source platforms.
+## 5. Content and intellectual property
 
-## 6. Privacy Policy
+### 5.1. Source code
 
-We take your privacy seriously. To understand how we collect and use your data, please read our [Privacy Policy](https://github.com/DEVenur/arielzinha-docs/blob/main/privacy-en.md). We will not share your personal information with third parties without your consent, unless required by law.
+Arielzinha's source code is distributed under the **GNU General Public License v2.0 (GPL-2.0)**, as set out in the license file and copyright notices in the [source repository](https://github.com/DEVenur/Arielzinha).
 
-## 7. Limitation of Liability
+GPL-2.0 grants rights to use, modify, and redistribute the code under the terms of that license. These Terms do not replace, reduce, or restrict the rights granted by the source-code license.
 
-To the maximum extent permitted by law, we shall not be liable for any direct, indirect, incidental, or consequential damages resulting from the use or inability to use **Arielzinha**. This includes, but is not limited to, data loss, service interruption, or damage to servers. You agree to use the Bot at your own risk.
+Arielzinha is derived from [MuseHeart-MusicBot](https://github.com/zRitsu/MuseHeart-MusicBot), originally created by zRitsu (Alex), and retains applicable attributions and notices from the upstream project.
 
-## 8. Changes to the Terms
+### 5.2. Brand and visual identity
 
-We may revise and update these Terms of Service periodically. When we make significant changes, we will make reasonable efforts to notify you through our support server or other communication channels. It is your responsibility to check this page regularly. Continued use of the Bot after changes are published constitutes acceptance of the new Terms.
+The Arielzinha name, logos, artwork, and other visual identity elements may be subject to rights separate from the source code. The source code's GPL-2.0 license does not automatically grant rights to trademarks or third-party artwork. Use of these elements must respect the rights of their respective owners.
 
-## 9. Termination
+### 5.3. Third-party content
 
-We reserve the right to suspend or terminate your access to the Bot at any time, without prior notice, for any reason, including but not limited to violations of these Terms. Upon termination, your right to use the Service will cease immediately.
+The bot may allow users to find, access, or play content made available by external platforms and sources. You are responsible for ensuring that you are authorized to access and use such content and for complying with copyright law and the terms of the relevant platforms.
 
-## 10. Governing Law and Jurisdiction
+## 6. Privacy
 
-These Terms shall be governed by and construed in accordance with the laws of Brazil. You agree that any legal dispute arising from the use of the Bot shall be subject to the exclusive jurisdiction of the courts located in Brazil.
+Data processing is described in the [Arielzinha Privacy Policy](privacy-en.md). Depending on configuration, the implementation may store identifiers, settings, preferences, integration data, and Last.fm-related information, as well as technical records.
+
+Use of external services is also subject to those services' own policies and terms.
+
+## 7. Limitation of liability
+
+To the maximum extent permitted by applicable law, the operator does not warrant that the Service will be uninterrupted, error-free, or permanently compatible with third-party services.
+
+Nothing in these Terms excludes or limits rights or liabilities that cannot be excluded or limited under applicable law. Users are responsible for their use of the bot and for the content they request or access through it.
+
+## 8. Suspension and termination
+
+The operator may suspend or terminate access to the Service in cases of violations of these Terms, abuse, security risks, unavailability of essential services, or discontinuation of the project.
+
+Suspension or removal of the bot does not, by itself, automatically delete data already stored. Requests for access or deletion must follow the procedure described in the Privacy Policy.
+
+## 9. Changes to these Terms
+
+These Terms may be updated to reflect changes to the Service, code, or legal requirements. The current version will be published in this repository. Where possible, significant changes will be communicated through official channels.
+
+## 10. Governing law and jurisdiction
+
+These Terms shall be interpreted in accordance with applicable Brazilian law, without excluding mandatory consumer-protection, privacy, or jurisdictional rules that may apply to a particular case.
 
 ## 11. Contact
 
-If you have any questions about these Terms of Service or need support, contact us through our [official Discord server](https://dcserver.link/brasilpokedrink).
+For questions or requests relating to the Service, contact us through the [official Discord support server](https://dcserver.link/brasilpokedrink).
 
 ---
 
-**Legal Notice:** Arielzinha is a tool for personal and entertainment use on Discord servers. We are not affiliated with Discord or any music streaming platforms. Use of the Bot must comply with the terms of service of all platforms involved.
+**Notice:** Arielzinha is not affiliated with, sponsored by, or officially associated with Discord, Last.fm, or the music platforms mentioned. Third-party names and trademarks belong to their respective owners.
