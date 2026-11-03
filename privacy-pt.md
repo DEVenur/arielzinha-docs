@@ -16,7 +16,7 @@ Sua privacidade é fundamental para nós. Esta política explica de forma transp
 ## 1. Introdução
 Bem-vindo à Política de Privacidade da **Arielzinha** ("Bot"). Este documento detalha quais informações coletamos, como as utilizamos e as medidas que tomamos para protegê-las. Esta política se aplica a todos os usuários que interagem com o Bot em qualquer servidor do Discord.
 
-Ao adicionar ou usar a Arielzinha, você consente com as práticas descritas neste documento.
+Ao adicionar ou utilizar a Arielzinha, você declara que leu esta política. O tratamento de dados ocorre conforme as finalidades e bases legais aplicáveis, independentemente de uma declaração genérica de consentimento.
 
 ## 2. As Informações que Coletamos
 Coletamos apenas os dados estritamente necessários para a operação do Bot. Eles se dividem em duas categorias:
@@ -27,7 +27,7 @@ Coletamos apenas os dados estritamente necessários para a operação do Bot. El
 #### b) Dados Coletados Automaticamente (Dados de Uso)
 *   **Identificadores do Discord (IDs):** IDs de Usuário, Servidor (Guild) e Canal são coletados para executar comandos corretamente, aplicar configurações e gerenciar permissões.
 *   **Presença em Canais de Voz:** Para operar o player de música, o Bot verifica em tempo real quais membros estão presentes no canal de voz onde ele está tocando, a fim de diferenciar ouvintes reais de outros bots. Isso é usado para desconectar automaticamente o player quando não há mais ouvintes humanos presentes e para exibir estatísticas de membros em comandos informativos (ex: `/about`). Esses dados não são armazenados; são consultados sob demanda e descartados imediatamente após o uso.
-*   **Dados de Comandos:** O conteúdo dos comandos que você executa (ex: `!play <link da música>`). Esses dados são processados para atender à sua solicitação e não são armazenados permanentemente em nosso banco de dados.
+*   **Dados de Comandos:** O conteúdo dos comandos que você executa (ex: `!play <link da música>`). Esses dados são processados para atender à sua solicitação. O conteúdo dos comandos também pode aparecer em registros técnicos de diagnóstico, conforme o funcionamento e a configuração do serviço; portanto, não se deve interpretar esta seção como garantia de que nenhum dado de comando será registrado.
 *   **Logs Técnicos:** Registros de diagnósticos e erros, que podem incluir IDs e comandos, usados para monitorar a estabilidade, identificar bugs e garantir a segurança do serviço. Esses logs são rotativos e excluídos periodicamente.
 
 #### c) O que NÃO Coletamos
@@ -50,13 +50,13 @@ Utilizamos seus dados com finalidades específicas e amparados por uma base lega
 ## 4. Compartilhamento e Divulgação de Dados
 A confiança dos nossos usuários é nossa prioridade. Não vendemos ou alugamos seus dados. O compartilhamento é restrito às seguintes situações:
 
-*   **Provedores de Hospedagem:** O Bot e seu banco de dados são hospedados em plataformas de terceiros (serviços de nuvem). Esses provedores têm acesso aos dados armazenados, mas estão contratualmente obrigados a mantê-los seguros e confidenciais.
+*   **Provedores de Serviços:** A operação do Bot pode envolver provedores externos de hospedagem, infraestrutura e serviços técnicos. Esses provedores podem tratar dados necessários à prestação dos serviços, de acordo com suas próprias condições e políticas.
 *   **Obrigação Legal:** Podemos divulgar suas informações se formos obrigados por lei, intimação ou outro processo legal válido, ou para proteger nossos direitos, propriedade e segurança.
 
 ## 5. Segurança e Retenção de Dados
-*   **Segurança:** Implementamos medidas de segurança técnicas e administrativas para proteger seus dados, incluindo controle de acesso rigoroso e criptografia para dados em trânsito e em repouso. No entanto, nenhum sistema é 100% seguro, e não podemos garantir segurança absoluta.
+*   **Segurança:** Buscamos proteger os dados tratados pelo serviço por meio de medidas técnicas e administrativas adequadas. As medidas efetivamente aplicadas podem variar conforme a infraestrutura e os provedores utilizados. Nenhum sistema é completamente seguro, e não é possível garantir segurança absoluta.
 *   **Retenção:** Mantemos os dados apenas pelo tempo necessário:
-    *   **Configurações do Servidor:** São mantidas enquanto o Bot permanecer no seu servidor. Ao remover o Bot, esses dados são marcados para exclusão.
+    *   **Configurações do Servidor:** São mantidas enquanto forem necessárias à operação e às finalidades descritas nesta política. A remoção do Bot interrompe sua operação no servidor, mas não garante o apagamento imediato de cópias de segurança ou registros técnicos. Para solicitar a exclusão de dados, entre em contato conosco.
     *   **Logs Técnicos:** São excluídos automaticamente em um ciclo regular (geralmente, 7 a 30 dias).
 
 ## 6. Seus Direitos de Privacidade
