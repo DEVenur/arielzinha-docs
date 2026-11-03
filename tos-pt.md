@@ -34,7 +34,7 @@ Violações destas regras podem resultar na sua proibição permanente de usar o
 
 ## 5. Propriedade Intelectual
 
-O nome **Arielzinha**, seu logotipo, código-fonte e identidade visual são de nossa propriedade intelectual. O Bot é licenciado sob a **GPL-2.0**, o que lhe concede o direito de usar, modificar e distribuir o código-fonte, desde que em conformidade com os termos desta licença.
+O nome **Arielzinha**, o logotipo e outros elementos de identidade visual podem estar sujeitos a direitos próprios e não são automaticamente abrangidos pela licença do código. O código-fonte é distribuído sob a **GPL-2.0**, conforme os avisos de licença e direitos autorais aplicáveis no repositório. Essa licença permite usar, modificar e redistribuir o código nos termos nela estabelecidos. Nada nestes Termos substitui ou restringe os direitos concedidos pela licença aplicável.
 
 A **Arielzinha** é um projeto derivado do **MuseHeart MusicBot**, criado por *zRitsu (Alex)*. Reconhecemos e respeitamos os direitos autorais do projeto original.
 
