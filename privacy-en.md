@@ -16,7 +16,7 @@ Your privacy matters to us. This policy transparently explains how your data is 
 ## 1. Introduction
 Welcome to the Privacy Policy of **Arielzinha** ("Bot"). This document details what information we collect, how we use it, and the measures we take to protect it. This policy applies to all users who interact with the Bot on any Discord server.
 
-By adding or using Arielzinha, you consent to the practices described in this document.
+By adding or using Arielzinha, you acknowledge that you have read this policy. Data processing is carried out according to the applicable purposes and legal bases, and is not based solely on a generic statement of consent.
 
 ## 2. Information We Collect
 We only collect data that is strictly necessary for the Bot's operation. It falls into two categories:
@@ -27,7 +27,7 @@ We only collect data that is strictly necessary for the Bot's operation. It fall
 #### b) Data Collected Automatically (Usage Data)
 *   **Discord Identifiers (IDs):** User, Server (Guild), and Channel IDs are collected to correctly execute commands, apply settings, and manage permissions.
 *   **Voice Channel Presence:** To operate the music player, the Bot checks in real time which members are present in the voice channel it is playing in, in order to distinguish real listeners from other bots. This is used to automatically disconnect the player when no human listeners remain and to display member statistics in informational commands (e.g. `/about`). This data is not stored; it is queried on demand and discarded immediately after use.
-*   **Command Data:** The content of the commands you run (e.g. `!play <song link>`). This data is processed to fulfill your request and is not permanently stored in our database.
+*   **Command Data:** The content of the commands you run (e.g. `!play <song link>`). This data is processed to fulfill your request. Command content may also appear in technical diagnostic records, depending on the service implementation and configuration; therefore, this section should not be read as a guarantee that command data is never logged.
 *   **Technical Logs:** Diagnostic and error records, which may include IDs and commands, used to monitor stability, identify bugs, and ensure service security. These logs are rotated and periodically deleted.
 
 #### c) What We Do NOT Collect
@@ -50,13 +50,13 @@ We use your data for specific purposes, each backed by a clear legal basis.
 ## 4. Data Sharing and Disclosure
 Our users' trust is our priority. We do not sell or rent your data. Sharing is limited to the following situations:
 
-*   **Hosting Providers:** The Bot and its database are hosted on third-party platforms (cloud services). These providers have access to stored data but are contractually required to keep it secure and confidential.
+*   **Service Providers:** Operating the Bot may involve external hosting, infrastructure, and technical service providers. These providers may process data necessary to deliver their services, subject to their own terms and policies.
 *   **Legal Obligation:** We may disclose your information if required by law, subpoena, or other valid legal process, or to protect our rights, property, and safety.
 
 ## 5. Security and Data Retention
-*   **Security:** We implement technical and administrative security measures to protect your data, including strict access control and encryption for data in transit and at rest. However, no system is 100% secure, and we cannot guarantee absolute security.
+*   **Security:** We seek to protect data processed by the Service through appropriate technical and administrative measures. The measures actually applied may vary depending on the infrastructure and providers in use. No system is completely secure, and absolute security cannot be guaranteed.
 *   **Retention:** We keep data only as long as necessary:
-    *   **Server Settings:** Kept for as long as the Bot remains on your server. Once the Bot is removed, this data is marked for deletion.
+    *   **Server Settings:** Retained for as long as they are necessary for operation and the purposes described in this policy. Removing the Bot stops its operation on the server, but does not guarantee immediate erasure of backups or technical records. To request data deletion, please contact us.
     *   **Technical Logs:** Automatically deleted on a regular cycle (typically 7 to 30 days).
 
 ## 6. Your Privacy Rights
