@@ -1,6 +1,6 @@
 # Arielzinha Terms of Service
 
-**Last updated:** August 14, 2026
+**Last updated:** November 3, 2026
 
 Welcome to Arielzinha! These Terms of Service ("Terms") govern your use of our Discord music bot. By adding or using Arielzinha on a server, you agree to these Terms. Please read and understand these rules.
 
